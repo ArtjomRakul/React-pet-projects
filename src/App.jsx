@@ -1,6 +1,8 @@
-import ToDoList from "./ToDoList.jsx"
+// import ToDoList from "./ToDoList.jsx"
+import DigitalClock from "./DigitalClock.jsx"
+import "./App.css"
 
 export default function App() {
   
-  return (<ToDoList/>)
+  return (<DigitalClock/>)
 }
