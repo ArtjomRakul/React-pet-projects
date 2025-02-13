@@ -13,14 +13,32 @@ body {
 
 .clock-container {
     min-width: 100vw;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px); /* Blur background effect */
     padding: 10px 0;
+    text-align: center;
+}
+
+button, .clock {
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    padding: 7px 0;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: font-size 0.2s,
+                text-shadow 0.2s;
+}
+
+button:hover {
+    font-size: 1.3rem;
+    text-shadow: 3px 3px 5px hsl(0, 0%, 25%)
 }
 
 .clock {
-    text-align: center;
-    color: white;
     font-size: 7rem;
-    font-weight: bold;
     text-shadow: 3px 3px 5px hsl(0, 0%, 50%);
 }
