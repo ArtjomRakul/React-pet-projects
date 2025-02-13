@@ -1,0 +1,26 @@
+body {
+    background-image: url("assets/bg_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Optional: keeps the background fixed on scroll */
+    margin: 0; /* Optional: remove default margin */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-container {
+    min-width: 100vw;
+    backdrop-filter: blur(3px);
+    padding: 10px 0;
+}
+
+.clock {
+    text-align: center;
+    color: white;
+    font-size: 7rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px hsl(0, 0%, 50%);
+}
